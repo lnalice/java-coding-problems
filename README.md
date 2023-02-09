@@ -1,1 +1,1 @@
-# java-tiny-projects
+# java-coding-problems
