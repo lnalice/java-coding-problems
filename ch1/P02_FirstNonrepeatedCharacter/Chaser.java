@@ -1,4 +1,4 @@
-package P01_FirstNonrepeatedCharacter;
+package P02_FirstNonrepeatedCharacter;
 
 import java.util.*;
 
