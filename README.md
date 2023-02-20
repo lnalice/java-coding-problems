@@ -25,3 +25,12 @@
 || Reversed :
 || ZYXWVUTSRQPONMLKJIHGFEDCBA
 
+### P04. ContainsOnlyDigits
+|input|output|
+|--|--|
+|0123456789| P04 - Contains Only Digits :
+|| Execution time : 3000700 ns ( 3 ms )
+|| Digits :true
+|012345 6789| P04 - Contains Only Digits :
+|| Execution time : 4000200 ns ( 4 ms )
+|| Digits :false
