@@ -34,3 +34,13 @@
 |012345 6789| P04 - Contains Only Digits :
 || Execution time : 4000200 ns ( 4 ms )
 || Digits :false
+
+### P05. CountVowelsAndConsonants
+text is " ... Illinois Mathematics & Science Academy ..."
+|input|output|
+|--|--|
+|| P05 - Count Vowels And Consonants
+||Execution time : 8789300 ns ( 8 ms )
+||Vowels : 14
+||Consonants : 19
+
