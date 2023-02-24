@@ -24,21 +24,21 @@ public class Time {
 		
 	}
 	
-	public double nowToNanoSeconds() {
+	public static double nowToNanoSeconds() {
 		double nanoseconds = (double) LocalTime.now().getNano();
 		return nanoseconds;
 	}
 	
-	public double nowToMilliSeconds() {
+	public static double nowToMilliSeconds() {
 		double milliseconds = nowToNanoSeconds()*(Math.pow(10, -6));
 		return milliseconds;
 	}
 	
-	public long executionTime (double startTime, double endTime) {
+	public static long executionTime (double startTime, double endTime) {
 		return (long) (endTime - startTime);
 	}
 	
-	public void displayExecutionNanosecondsAndMilliseconds (long executionNanoseconds, long executionMilliseconds) {
+	public static void displayExecutionNanosecondsAndMilliseconds (long executionNanoseconds, long executionMilliseconds) {
 		System.out.printf("Execution time : %d ns ( %d ms )\n", (long) executionNanoseconds, (long) executionMilliseconds);
 	}
 }

@@ -11,10 +11,7 @@ public class Main {
             + "At 15, I worked as a computer programmer at the Fermi National Accelerator Laboratory, "
             + "or Fermilab. After graduating, I attended Stanford for a degree in economics and "
             + "computer science.";
-	
-	static Time time = new Time();
-
-	
+		
 	public static void main(String[] args) {
 		
 		System.out.println("P06 - Count Occurrences Of Character");
@@ -23,37 +20,37 @@ public class Main {
 		
 		System.out.println("\nMap based soultion:");
 		
-		double startNanoSeconds = time.nowToNanoSeconds();
-		double startMilliSeconds = time.nowToMilliSeconds();
+		double startNanoSeconds = Time.nowToNanoSeconds();
+		double startMilliSeconds = Time.nowToMilliSeconds();
 						
 		int number_map = Words.counterWithMap(TARGET_CHARACTER, INPUT_TEXT);
 		
-		double endNanoSeconds = time.nowToNanoSeconds();
-		double endMilliSeconds = time.nowToMilliSeconds();
+		double endNanoSeconds = Time.nowToNanoSeconds();
+		double endMilliSeconds = Time.nowToMilliSeconds();
 		
-		time.displayExecutionNanosecondsAndMilliseconds(
-				time.executionTime(startNanoSeconds, endNanoSeconds), 
-				time.executionTime(startMilliSeconds, endMilliSeconds));
+		Time.displayExecutionNanosecondsAndMilliseconds(
+				Time.executionTime(startNanoSeconds, endNanoSeconds), 
+				Time.executionTime(startMilliSeconds, endMilliSeconds));
 		
-		System.out.printf("Character '%c' occured %d time(s)\n", TARGET_CHARACTER, number_map);
+		System.out.printf("Character '%c' occured %d Time(s)\n", TARGET_CHARACTER, number_map);
 		
 
 		
 		System.out.println("\nString based soultion:");
 		
-		startNanoSeconds = time.nowToNanoSeconds();
-		startMilliSeconds = time.nowToMilliSeconds();
+		startNanoSeconds = Time.nowToNanoSeconds();
+		startMilliSeconds = Time.nowToMilliSeconds();
 						
 		int number_string = Words.counterWithString(TARGET_CHARACTER, INPUT_TEXT);
 		
-		double endNanoSeconds2 =  time.nowToNanoSeconds();
-		double endMilliSeconds2 = time.nowToMilliSeconds();
+		double endNanoSeconds2 =  Time.nowToNanoSeconds();
+		double endMilliSeconds2 = Time.nowToMilliSeconds();
 		
-		time.displayExecutionNanosecondsAndMilliseconds(
-				time.executionTime(startNanoSeconds, endNanoSeconds2), 
-				time.executionTime(startMilliSeconds, endMilliSeconds2));
+		Time.displayExecutionNanosecondsAndMilliseconds(
+				Time.executionTime(startNanoSeconds, endNanoSeconds2), 
+				Time.executionTime(startMilliSeconds, endMilliSeconds2));
 		
-		System.out.printf("Character '%c' occured %d time(s)\n", TARGET_CHARACTER, number_string);
+		System.out.printf("Character '%c' occured %d Time(s)\n", TARGET_CHARACTER, number_string);
 		
 		
 	}
