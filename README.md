@@ -44,3 +44,16 @@ text is " ... Illinois Mathematics & Science Academy ..."
 ||Vowels : 14
 ||Consonants : 19
 
+### P06 - Count Occurrences Of Character
+Input text is :
+My high school, the Illinois Mathematics and Science Academy, showed me that anything is possible and that you're never too young to think big. At 15, I worked as a computer programmer at the Fermi National Accelerator Laboratory, or Fermilab. After graduating, I attended Stanford for a degree in economics and computer science.
+|input|output|
+|--|--|
+|| P06 - Count Occurrences Of Character
+||Map based soultion:
+||Execution time : 3128100 ns ( 2 ms )
+||Character 'w' occured 2 time(s)
+||
+||String based soultion:
+||Execution time : 1000700 ns ( 1 ms )
+||Character 'w' occured 2 time(s)
