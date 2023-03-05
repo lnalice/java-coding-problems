@@ -12,7 +12,7 @@ public class Main {
 		
 		System.out.println("P02 - First Nonrepeated Character");
 		System.out.println(INPUT_TEXT);
-		System.out.println("Pleas write input text : ");
+		System.out.println("Please write input text : ");
 		
 		Scanner in = new Scanner(System.in);
 		
