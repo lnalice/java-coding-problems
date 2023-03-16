@@ -1,13 +1,14 @@
 package P00_Util;
 
+import java.math.*;
 import java.time.*;
 
 public class Time {
 	
-	private static double startNanoseconds;
-	private static double endNanoseconds;
-	private static double startMilliseconds;
-	private static double endMilliseconds;
+	private static BigDecimal startNanoseconds;
+	private static BigDecimal endNanoseconds;
+	private static BigDecimal startMilliseconds;
+	private static BigDecimal endMilliseconds;
 	
 	/**
 	 * time function ver1
@@ -59,18 +60,24 @@ public class Time {
 	 * (use private static variable)
 	 */
 	public static void setStartTime () {
-		startNanoseconds = (double) LocalTime.now().getNano();
-		startMilliseconds = startNanoseconds * (Math.pow(10,  -6));
+//		startNanoseconds = (double) LocalTime.now().getNano();
+//		startMilliseconds = startNanoseconds * (Math.pow(10,  -6));
+		startNanoseconds = new BigDecimal(String.valueOf(LocalTime.now().getNano()));
+		startMilliseconds = startNanoseconds.multiply(new BigDecimal(String.valueOf(Math.pow(10,  -6))));
 	}
 	
 	public static void setEndTime () {
-		endNanoseconds = (double) LocalTime.now().getNano();
-		endMilliseconds = endNanoseconds * (Math.pow(10,  -6));
+//		endNanoseconds = (double) LocalTime.now().getNano();
+//		endMilliseconds = endNanoseconds * (Math.pow(10,  -6));
+		endNanoseconds = new BigDecimal(String.valueOf(LocalTime.now().getNano()));
+		endMilliseconds = endNanoseconds.multiply(new BigDecimal(String.valueOf(Math.pow(10,  -6))));
 	}
 	
 	public static void displayExecutionTime () {
-		long executionNanoseconds = (long) (endNanoseconds - startNanoseconds);
-		long executionMilliseconds = (long) (endMilliseconds - startMilliseconds);
+//		long executionNanoseconds = (long) (endNanoseconds - startNanoseconds);
+//		long executionMilliseconds = (long) (endMilliseconds - startMilliseconds);
+		long executionNanoseconds = endNanoseconds.subtract(startNanoseconds).longValue();
+		long executionMilliseconds = endMilliseconds.subtract(startMilliseconds).longValue();
 		
 		System.out.printf("Execution time : %d ns ( %d ms )\n", executionNanoseconds, executionMilliseconds);
 	}

@@ -3,6 +3,7 @@ package P03_ReverseWords;
 import java.util.*;
 
 public class Words {
+	private static final String WHITESPACE = "";
 	
 	static String reverseWordsByArray(String str) {
 		
@@ -13,5 +14,15 @@ public class Words {
 		
 		return String.join("", reversedArr);
 				
+	}
+	
+	static StringBuilder reverseWordsByStringBuilder(String str) {
+		StringBuilder sb = new StringBuilder(str);
+		return sb.reverse();
+	}
+	
+	public String reverseWordsByPattern(String str) {
+		
+		return "";
 	}
 }
