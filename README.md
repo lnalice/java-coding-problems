@@ -13,17 +13,36 @@
 ||  improved counter is : {;=2, a=2, d=3, f=2, j=1, k=1, l=2, s=1}
 
 ### P02. FirstUnrepeatedCharacter
+
+P02 - First Nonrepeated Character <br/>
+Let's find a First Nonrepeated Character. <br/>
+Please write input text : <br/>
 |input|output|
 |--|--|
-|af;ldkjad| Execution time : 4192800 ns ( 4 ms )
-|| Found Character : f
+|Let's find a First Nonrepeated Character.| ArrayList soultion:
+||Execution time : 13447800 ns ( 13 ms )
+||Found Character : L
+||
+||LinkedHashMap soultion:
+||Execution time : 2525900 ns ( 2 ms )
+||Found Character : L
+||
+||function style soultion:
+||Execution time : 26071000 ns ( 26 ms )
+||Found Character : L
 
 ### P03. ReverseWords
+P03 - Reverse Words :
 |input|output|
 |--|--|
-|ABCDEFGHIJKLMNOPQRSTUVWXYZ| Execution time : 4700200 ns ( 4 ms )
-|| Reversed :
-|| ZYXWVUTSRQPONMLKJIHGFEDCBA
+|Reverse this words|Array Solution :
+||Execution time : 4003400 ns ( 4 ms )
+||Reversed : sdrow siht esreveR
+||
+||StringBuilder Solution :
+||Execution time : 2004100 ns ( 2 ms )
+||Reversed : sdrow siht esreveR
+
 
 ### P04. ContainsOnlyDigits
 |input|output|
