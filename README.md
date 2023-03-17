@@ -1,7 +1,6 @@
 # java-coding-problems
--
--
--
+- Add - my own solution
+- Edit - improve solution with book and add various solution
 <br />
 
 ## ch01
