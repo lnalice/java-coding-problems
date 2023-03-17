@@ -45,14 +45,22 @@ P03 - Reverse Words :
 
 
 ### P04. ContainsOnlyDigits
+input text :
+45566336754493420932877387482372374982374823749823283974232237238472392309230923849023848234580383485342234287943943094234745374657346578465783467843653748654376837463847654382382938793287492326
+P04 - Contains Only Digits :
 |input|output|
 |--|--|
-|0123456789| P04 - Contains Only Digits :
-|| Execution time : 3000700 ns ( 3 ms )
-|| Digits :true
-|012345 6789| P04 - Contains Only Digits :
-|| Execution time : 4000200 ns ( 4 ms )
-|| Digits :false
+||Exception Solution :
+||Execution time : 6578000 ns ( 6 ms )
+||Digits :true
+||
+||Java 8 Solution :
+||Execution time : 6028700 ns ( 6 ms )
+||Digits :true
+||
+||Regular Expression Solution :
+||Execution time : 1022600 ns ( 1 ms )
+||Digits :true
 
 ### P05. CountVowelsAndConsonants
 text is " ... Illinois Mathematics & Science Academy ..."
