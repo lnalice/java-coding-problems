@@ -16,6 +16,7 @@ public class Pair<F,S> {
 	public F getX () {
 		return first;
 	}
+	
 	public S getY () {
 		return second;
 	}
