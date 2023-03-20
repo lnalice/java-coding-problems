@@ -1,9 +1,11 @@
 package P05_CountVowelsAndConsonants;
 
 import java.util.*;
+//import javafx.util.*;
+import P00_Util.Pair;
 
 public class Words {
-	public static HashMap<Character, Integer> counterWithAskii(String str) {
+	static HashMap<Character, Integer> counterWithAscii(String str) {
 
 		int[] CapitalLetterOfVowels = {65, 69, 73, 79, 85};
 		
@@ -27,5 +29,26 @@ public class Words {
 		}
 		
 		return result;		
+	}
+		
+	static Pair<Integer, Integer> couterWithHashSet(String str) {
+		
+		
+		final Set<Character> allVowels = new HashSet(Arrays.asList('a','e','i','o','u'));
+		
+		str = str.toLowerCase();
+		int vowels = 0;
+		int consonants = 0;
+		
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			if (allVowels.contains(ch)) {
+				vowels++;
+			} else if (ch >= 'a' && ch <= 'z') {
+				consonants++;
+			}
+		} 
+		
+		return Pair.of(vowels,consonants);
 	}
 }
