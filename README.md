@@ -63,10 +63,16 @@ P04 - Contains Only Digits :
 
 ### P05. CountVowelsAndConsonants
 text is " ... Illinois Mathematics & Science Academy ..."
+P05 - Count Vowels And Consonants
 |input|output|
 |--|--|
-|| P05 - Count Vowels And Consonants
-||Execution time : 8789300 ns ( 8 ms )
+||HashMap And Ascii Solution
+||Execution time : 12075000 ns ( 12 ms )
+||Vowels : 14
+||Consonants : 19
+||
+||DIY Pair Solution
+||Execution time : 3005500 ns ( 3 ms )
 ||Vowels : 14
 ||Consonants : 19
 
