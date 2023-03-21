@@ -89,3 +89,22 @@ My high school, the Illinois Mathematics and Science Academy, showed me that any
 ||String based soultion:
 ||Execution time : 1000700 ns ( 1 ms )
 ||Character 'w' occured 2 time(s)
+
+### P07 - Conver String to Int, Long, Float, Double
+P07 - Convert String to Int, Long, Float, Double
+String is 1233
+|input|output|
+|--|--|
+||Parse Solution
+|| Execution time : 1066000 ns ( 1 ms )
+|| Integer is 1233
+|| Long is 1233
+|| Float is 1233.000000
+|| Double is 1233.000000
+||
+||Valueof Solution
+|| Execution time : 35480900 ns ( 35 ms )
+|| Integer is 1233
+|| Long is 1233
+|| Float is 1233.000000
+|| Double is 1233.000000
