@@ -92,6 +92,7 @@ My high school, the Illinois Mathematics and Science Academy, showed me that any
 
 ### P07 - Conver String to Int, Long, Float, Double
 P07 - Convert String to Int, Long, Float, Double
+<br />
 String is 1233
 |input|output|
 |--|--|
