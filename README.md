@@ -109,3 +109,20 @@ String is 1233
 || Long is 1233
 || Float is 1233.000000
 || Double is 1233.000000
+
+
+### P08 - Remove Whitespaces From String
+P08 - Remove Whitespaces From String
+<br />
+input text is...
+<br />
+      My high
+
+ school,        the Illinois Mathematics and Science Academy, showed me that anything is possible and that you're never too young to think big. 
+At 15, I worked as a computer programmer at the Fermi National Accelerator Laboratory, 	or Fermilab. After graduating, I attended Stanford for a degree in economics and computer science.
+
+|input|output|
+|--|--|
+||String Method Solution
+||String : Myhighschool,theIllinoisMathematicsandScienceAcademy,showedmethatanythingispossibleandthatyou'renevertooyoungtothinkbig.At15,IworkedasacomputerprogrammerattheFermiNationalAcceleratorLaboratory,orFermilab.Aftergraduating,IattendedStanfordforadegreeineconomicsandcomputerscience.
+||Execution time : 2995600 ns ( 2 ms )
