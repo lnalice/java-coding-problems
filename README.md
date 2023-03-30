@@ -126,3 +126,12 @@ At 15, I worked as a computer programmer at the Fermi National Accelerator Labor
 ||String Method Solution
 ||String : Myhighschool,theIllinoisMathematicsandScienceAcademy,showedmethatanythingispossibleandthatyou'renevertooyoungtothinkbig.At15,IworkedasacomputerprogrammerattheFermiNationalAcceleratorLaboratory,orFermilab.Aftergraduating,IattendedStanfordforadegreeineconomicsandcomputerscience.
 ||Execution time : 2995600 ns ( 2 ms )
+
+### P09 - Join Multiple Strings
+P09 - Join Multiple Strings
+<br />
+|input|output|
+|--|--|
+||StringBuilder Method
+||String : Dream like a whale
+||Execution time : 3996800 ns ( 3 ms )
