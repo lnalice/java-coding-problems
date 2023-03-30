@@ -133,5 +133,25 @@ P09 - Join Multiple Strings
 |input|output|
 |--|--|
 ||StringBuilder Method
-||String : Dream like a whale
 ||Execution time : 3996800 ns ( 3 ms )
+||String : Dream like a whale
+||
+||Updated StringBuilder Method
+||Execution time : 1003300 ns ( 1 ms )
+||String : Dream like a whale
+||
+||StringJoiner Method
+||Execution time : 999600 ns ( 0 ms )
+||String : Dream like a whale
+||
+||String Join Method
+||Execution time : 697700 ns ( 0 ms )
+||String : Dream like a whale
+||
+||String Join Method
+||Execution time : 1002200 ns ( 1 ms )
+||String : Dream like a whale
+||
+||java 8 Method
+||Execution time : 4057500 ns ( 4 ms )
+||String : Dream like a whale
