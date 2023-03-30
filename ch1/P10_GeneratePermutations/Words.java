@@ -1,10 +1,13 @@
 package P10_GeneratePermutations;
 
+import java.util.*;
 public class Words {
 
-//	static String[] PermissionCharArr(String str) {
-//		for (char e : str.toCharArray()) {
-//			
-//		}
-//	}
+	ArrayList<String> result = new ArrayList<>();
+	static String[] PermissionRecurr(String str) {
+		for (char e : str.toCharArray()) {
+			StringBuilder sb = new StringBuilder();
+			
+		}
+	}
 }

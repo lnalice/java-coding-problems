@@ -14,10 +14,8 @@ public class Main {
 		
 		Time.setStartTime();
 		
-//		String[] permutation = Words.PermissionCharArr(INPUT_STRING);
-		
-//		Words
-		
+		String[] permutation = Words.PermissionRecurr(INPUT_STRING);
+				
 		Time.setEndTime();
 		
 		Time.displayExecutionTime();
